@@ -1,9 +1,9 @@
-import React from "react";
+import {BestCharacters} from "../components/BestCharacters";
 
 export const Home = () => {
   return (
     <div>
-      Dentro de home
+      <BestCharacters />
     </div>
   );
 };

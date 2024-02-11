@@ -1,1 +1,1 @@
-export { default } from "./BestCharacters";
+export { BestCharacters } from "./BestCharacters";
