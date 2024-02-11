@@ -1,7 +1,7 @@
 import { Menu } from 'semantic-ui-react';
-import './Header.scss';
 import { useState } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
+import './Header.scss';
 
 export const Header = () => {
   const currentPath = useLocation()
@@ -18,19 +18,19 @@ export const Header = () => {
     <div className='header-menu'>
     <Menu secondary>
       <Menu.Item
-        name='inicio'
-        active={activeItem === 'inicio'}
-        onClick={()=>{handleItemClick}}
+        name="inicio"
+        active={activeItem === "inicio"}
+        onClick={handleItemClick}
       />
       <Menu.Item
         name='series'
         active={activeItem === 'series'}
-        hrefonClick={()=>{handleItemClick}}
+        onClick={handleItemClick}
       />
       <Menu.Item
         name='comics'
         active={activeItem === 'comics'}
-        hrefonClick={()=>{handleItemClick}}
+        onClick={handleItemClick}
       />
     </Menu>
     </div>

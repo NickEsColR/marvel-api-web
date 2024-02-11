@@ -2,6 +2,6 @@ import React from 'react'
 
 export const Comics = () => {
   return (
-    <div>Comics</div>
+    <div>dentro de Comics</div>
   )
 }

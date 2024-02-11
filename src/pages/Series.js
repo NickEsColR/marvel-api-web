@@ -2,6 +2,6 @@ import React from 'react'
 
 export const Series = () => {
   return (
-    <div>Series</div>
+    <div>dentro de Series</div>
   )
 }
