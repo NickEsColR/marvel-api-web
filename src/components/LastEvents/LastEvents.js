@@ -15,7 +15,7 @@ export const LastEvents = ({ lastEventFetch }) => {
   const { results } = response.data;
 
   return results.map((event, index) => (
-    <Card key={index} className="Last-event">
+    <Card key={index} className="last-event">
       <Image
         src={`${event.thumbnail.path}.${event.thumbnail.extension}`}
         wrapped
