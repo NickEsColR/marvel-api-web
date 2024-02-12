@@ -1,8 +1,8 @@
+import "./BestCharacters.scss";
 import { Button, Grid, Header, Image } from "semantic-ui-react";
 import {Container} from "../Container";
 import marvelImage from "../../img/marvel.png";
 
-import "./BestCharacters.scss";
 
 export const BestCharacters = () => {
   return (
