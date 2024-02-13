@@ -19,7 +19,10 @@
   }
 
   .extra.content {
+    display: flex !important;
     height: 15% !important;
+    padding: 5% !important;
+    align-items: center !important;
   }
 }
 

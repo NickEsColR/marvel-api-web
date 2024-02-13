@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Container, Grid, Header } from "semantic-ui-react";
 import { ListComics } from "../components/ListComics";
 import { useFetch } from "../hooks/useFetch";
