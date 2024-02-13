@@ -1,0 +1,1 @@
+export {ListComics} from './ListComics'
