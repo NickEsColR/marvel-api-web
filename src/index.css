@@ -12,24 +12,18 @@ code {
     monospace;
 }
 
-.comics-page .header {
+.header.list-header {
   margin-left: 0 !important;
   margin-top: 30px !important;
   margin-bottom: 50px !important;
   font: 800 26px/1 "RobotoCondensed", "Trebuchet MS", Helvetica, Arial,
     sans-serif;
+  font-weight: bolder !important;
   letter-spacing: 1px;
-  text-transform: uppercase;
-}
+  text-transform: uppercase !important;
+  text-align: center;
 
-.series-page .header {
-  margin-left: 0 !important;
-  margin-top: 30px !important;
-  margin-bottom: 50px !important;
-  font: 800 26px/1 "RobotoCondensed", "Trebuchet MS", Helvetica, Arial,
-    sans-serif;
-  letter-spacing: 1px;
-  text-transform: uppercase;
+  color: red !important;
 }
 
 #slide-comics-image {
@@ -66,10 +60,12 @@ code {
 .error-404 .error-404-content-text h1 {
   color: white;
 }
+
 .error-404 .error-404-content-text h2 {
   color: white;
   margin-bottom: 50px;
 }
+
 .error-404 .error-404-content-text .error-404-content-text-container {
   text-align: center;
 }
