@@ -19,7 +19,7 @@ export const Comics = () => {
         <Grid.Column>
           <Container bg="light">
             <Header as="h2">Los mejores comics</Header>
-            <ListComics listComics={listComics} />
+            <ListComics listComics={listComics} setRenderComics={setRenderComics}/>
           </Container>
         </Grid.Column>
       </Grid>
