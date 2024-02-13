@@ -19,6 +19,9 @@ export const Header = () => {
   return (
     <div className="header-menu">
       <Menu secondary>
+        <Menu.Item className="icon-container">
+        <span className="icon"/>
+        </Menu.Item>
         <Menu.Item
           name="inicio"
           active={activeItem === "inicio"}
