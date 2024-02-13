@@ -1,0 +1,30 @@
+.list-comics {
+  height: 455px;
+
+  .image {
+    height: 50%;
+    display: flex !important;
+  }
+
+  .content {
+    height: 35%;
+
+    .header {
+      display: -webkit-box !important;
+      -webkit-box-orient: vertical !important;
+      -webkit-line-clamp: 3 !important;
+      overflow: hidden !important;
+      text-overflow: ellipsis !important;
+    }
+  }
+
+  .extra.content {
+    height: 15% !important;
+  }
+}
+
+.container-button {
+  text-align: center;
+  width: 100%;
+  padding: 30px 0;
+}
