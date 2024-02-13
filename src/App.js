@@ -1,5 +1,5 @@
 import "semantic-ui-css/semantic.min.css";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import { Home } from "./pages/Home";
 import { Series } from "./pages/Series";
 import { Comics } from "./pages/Comics";
@@ -12,7 +12,7 @@ function App() {
       <BrowserRouter>
         <Header />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Navigate to='/inicio'/>} />
           <Route path="/inicio" element={<Home />} />
           <Route path="/series" element={<Series />} />
           <Route path="/comics" element={<Comics />} />
