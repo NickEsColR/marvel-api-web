@@ -9,19 +9,18 @@ export const Series = () => {
   const listSeries = useFetch(url);
 
   return (
-    <div>
-      <div className="series-page">
-        <div id="slide-series-image">
-          <Grid>
-            <Grid.Column>
-              <Container bg="light">
-                <Header as="h2">Las últimas series de Marvel</Header>
-                <ListSeries listSeries={listSeries} />
-              </Container>
-            </Grid.Column>
-          </Grid>
-        </div>
-      </div>
+    <div className="series-page">
+      <div id="slide-series-image" />
+      <Grid>
+        <Grid.Column>
+          <Container bg="light">
+            <Header as="h2" className="list-header">
+              Las últimas series de Marvel
+            </Header>
+            <ListSeries listSeries={listSeries} />
+          </Container>
+        </Grid.Column>
+      </Grid>
     </div>
   );
 };

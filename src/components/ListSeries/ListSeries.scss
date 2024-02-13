@@ -1,0 +1,39 @@
+.list-series {
+  .image {
+    height: 50%;
+    display: flex !important;
+  }
+
+  .content {
+    height: 35%;
+
+    .header {
+      display: -webkit-box !important;
+      -webkit-box-orient: vertical !important;
+      -webkit-line-clamp: 3 !important;
+      overflow: hidden !important;
+      text-overflow: ellipsis !important;
+    }
+
+    .description {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-width: 200px;
+    }
+  }
+
+  .extra.content {
+    display: flex !important;
+    height: 15% !important;
+    padding: 5% !important;
+    align-items: center !important;
+  }
+}
+.container-button {
+  display: inline-block !important;
+  text-align: center;
+  width: 100%;
+  padding: 30px 0;
+  vertical-align: middle !important;
+}
