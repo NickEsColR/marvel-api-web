@@ -5,6 +5,7 @@ import { Series } from "./pages/Series";
 import { Comics } from "./pages/Comics";
 import { Error404 } from "./pages/Error404";
 import { Header } from "./components/Header";
+import { Footer } from "./components/Footer";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/comics" element={<Comics />} />
           <Route path="*" element={<Error404 />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </div>
   );
