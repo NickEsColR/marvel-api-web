@@ -19,8 +19,12 @@ export const Header = () => {
   return (
     <div className="header-menu">
       <Menu secondary>
-        <Menu.Item className="icon-container">
-        <span className="icon"/>
+        <Menu.Item
+          className="icon-container"
+          name="inicio"
+          onClick={handleItemClick}
+        >
+          <span className="icon" />
         </Menu.Item>
         <Menu.Item
           name="inicio"
