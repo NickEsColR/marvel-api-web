@@ -20,7 +20,7 @@ export const ListComics = ({ listComics, setRenderComics }) => {
   }
 
   return (
-    <Card.Group itemsPerRow={5}>
+    <Card.Group itemsPerRow={5} stackable>
       {results.map((comic, index) => (
         <Card key={index} className="list-comics">
           <Image

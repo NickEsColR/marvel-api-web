@@ -31,3 +31,10 @@
   width: 100%;
   padding: 30px 0;
 }
+@media screen and (max-width: 767px) {
+  .ui.stackable.cards>.card.list-comics {
+    width: 50% !important;
+    margin: 15px auto !important;
+  }
+  
+}

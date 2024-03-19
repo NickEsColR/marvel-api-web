@@ -77,3 +77,10 @@ code {
 .error-404 .error-404-content-text .error-404-content-text-container {
   text-align: center;
 }
+
+@media (max-width: 767px) {
+  #slide-comics-image {
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
