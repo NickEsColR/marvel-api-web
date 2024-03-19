@@ -16,7 +16,7 @@ export const ListSeries = ({ listSeries }) => {
   console.log(results);
 
   return (
-    <Card.Group itemsPerRow={5}>
+    <Card.Group itemsPerRow={5} stackable>
       {results.map((serie, index) => (
         <Card key={index} className="list-series">
           <Image
