@@ -12,8 +12,8 @@ export const ListLastEvent = () => {
     <div className="container-list-last-events">
       <Header size="large">Últimos eventos</Header>
       <Container bg="light">
-        <Card.Group itemsPerRow={5}>
-          <LastEvents lastEventFetch={lastEventFetch} />
+        <Card.Group itemsPerRow={5} stackable>
+          <LastEvents lastEventFetch={lastEventFetch}/>
         </Card.Group>
       </Container>
     </div>
