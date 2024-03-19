@@ -5,7 +5,7 @@ import "./Footer.scss";
 export const Footer = () => {
   return (
     <div className="footer-container">
-      <Grid columns={2}>
+      <Grid columns={2} stackable>
         <Grid.Column>
           <Image alt="image footer" src={ImageFooter} />
         </Grid.Column>
