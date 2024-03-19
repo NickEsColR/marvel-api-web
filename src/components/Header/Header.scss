@@ -60,3 +60,9 @@
     opacity: 0.6;
   }
 }
+@media (max-width: 320px){
+  .header-menu{
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
